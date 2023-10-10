@@ -34,18 +34,23 @@ int display()
 
 int main()
 {
-    int x;
+    int x,i;
+  while(1){
 
-    printf("Pres 1 to insertEnd \n");
+    printf("\nPres 1 to insertEnd \n");
     printf("Pres 2 to delete \n");
     printf("Pres 3 to display \n");
     printf("Pres 0 to Exit \n");
     scanf("%d",&x);
 
+
+
     switch (x)
     {
     case 1:
-        insertEnd(x);
+     printf("enter your insert value :");
+     scanf("%d",&i);
+        insertEnd(i);
         break;
 
     case 2:
@@ -57,28 +62,13 @@ int main()
     break;
 
     case 0:
-    break;
+    printf("exit\n");
+    return 0;
 
     
     default:
+     printf("invalid choice :");
         break;
     }
-    
-    
- 
-    
-    insertEnd(10);
-    insertEnd(20);
-    insertEnd(30);
-    insertEnd(40);
-    insertEnd(50);
-
-
-    // delete();
-    // delete();
-    // delete();
-    // delete();
-    // delete();
-
-    display();
+}
 }
