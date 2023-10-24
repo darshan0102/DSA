@@ -121,19 +121,20 @@ void deletmid(int posi)
 
 int main()
 {
-    insertend(10);
-    insertend(20);
-    insertend(30);
-    insertend(40);
+    //  insertend(10);
+    //  insertend(20);
+    //  insertend(30);
+    //  insertend(40);
     insertend(50);
-    insertend(60);
-    insertend(70);
-    insertend(80);
-    insertend(90);
-    display();
-    deletend(); 
-    deletend();
-    deletfirst(10);
-    deletmid(40);
+   
+   insertfirst(60);
+   insertfirst(70);
+    // display();
+    // deletend(); 
+    // deletend();
+    // deletfirst(10);
+    // deletfirst(20);
+    // deletfirst(30);
+   
     display();
 }
