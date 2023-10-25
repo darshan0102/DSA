@@ -145,7 +145,6 @@ void deletmid(int posi)
 int main()
 {
   
-   
     insertend(10);
     insertend(20);
     display();
