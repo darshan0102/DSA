@@ -150,8 +150,12 @@ int main()
     insertend(10);
     insertend(20);
     display();
+    deletend();
     insertfirst(30);
     insertfirst(40);
+    deletfirst();
+    display();
+    insertmid(50,10);
     display();
       
 }
